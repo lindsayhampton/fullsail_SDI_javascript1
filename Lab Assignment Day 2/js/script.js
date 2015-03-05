@@ -22,3 +22,10 @@ var numTotalSlices = 8;
 var numSlices = (numPizza * numTotalSlices)/ numPartygoers;
 console.log("Each person at the party will recieve "+numSlices+" slices of pizza.");
 
+// Slices of Pie pt. 2
+
+    //Number of slices for Sparky
+var sparkySlice = (numPizza * numTotalSlices)% numPartygoers;
+console.log("Sparky gets to eat "+sparkySlice+" slices of pizza.")
+console.log("Poor Sparky got excited for nothing.")
+
