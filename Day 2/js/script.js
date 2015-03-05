@@ -176,4 +176,4 @@ var pi = 3.14;
 var num= 5.5678912345;
 // Round 2 decimal places
 var n = num .toFixed(2);
-console.log(n);
+console.log("The rounded number to 2 decimal places is "+n);
