@@ -56,15 +56,16 @@ var origPrice = 1250;
 
     // Percentage off
 var discount2 = 15
-var discount = .15;
+var discount = discount2/100;
 
     // Sales tax
-var salesTax = .06;
+var salesTax2 = 6;
+var salesTax = salesTax2/100;
 
     // New price w/o tax
 var price1 = origPrice-(origPrice*discount);
 
     // New price with tax
-var price2 = (origPrice*salesTax)+origPrice;
+var price2 = (price1*salesTax)+price1;
 
 console.log("The price of "+item+" was originally $"+origPrice+", but with your discount of "+discount2+"% the new total will be $"+price1+" before sales tax and $"+price2+" after tax.");

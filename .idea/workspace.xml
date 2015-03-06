@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4797ca7a-b89e-41c2-ab91-cd17d794d7d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab Assignment Day 2/js/script.js" afterPath="$PROJECT_DIR$/Lab Assignment Day 2/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hampton_lindsay_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +62,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab Assignment Day 2/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75982535" vertical-offset="378" max-vertical-offset="1125">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7379913" vertical-offset="438" max-vertical-offset="1140">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -315,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab Assignment Day 2/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75982535" vertical-offset="378" max-vertical-offset="1125">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.7379913" vertical-offset="438" max-vertical-offset="1140">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
