@@ -38,10 +38,33 @@ var week3 = (98);
 var week4 = (125);
 var week5 = (104);
 
+    // Total amount over 5 weeks
 var totalNum = week1+week2+week3+week4+week5;
 console.log("The total amount spent on groceries over five weeks is $"+totalNum);
 
+    // Average $$$ spent per week
 var average = totalNum / 5;
 console.log("The average amount spent on groceries per week is $"+average);
 
+// Discounts
 
+    // Item Description
+var item = "a Cardigan Welsh Corgi puppy";
+
+    // Original Price
+var origPrice = 1250;
+
+    // Percentage off
+var discount2 = 15
+var discount = .15;
+
+    // Sales tax
+var salesTax = .06;
+
+    // New price w/o tax
+var price1 = origPrice-(origPrice*discount);
+
+    // New price with tax
+var price2 = (origPrice*salesTax)+origPrice;
+
+console.log("The price of "+item+" was originally $"+origPrice+", but with your discount of "+discount2+"% the new total will be $"+price1+" before sales tax and $"+price2+" after tax.");
