@@ -29,3 +29,19 @@ var sparkySlice = (numPizza * numTotalSlices)% numPartygoers;
 console.log("Sparky gets to eat "+sparkySlice+" slices of pizza.")
 console.log("Poor Sparky got excited for nothing.")
 
+// Average shopping bill
+
+    //Costs of groceries per week
+var week1 = (113);
+var week2 = (167);
+var week3 = (98);
+var week4 = (125);
+var week5 = (104);
+
+var totalNum = week1+week2+week3+week4+week5;
+console.log("The total amount spent on groceries over five weeks is $"+totalNum);
+
+var average = totalNum / 5;
+console.log("The average amount spent on groceries per week is $"+average);
+
+
