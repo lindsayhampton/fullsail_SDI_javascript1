@@ -1,8 +1,8 @@
 /*
  Lindsay Hampton
- Date
+ March 7, 2015
  Section 00
- Assignment
+ Expressions
  */
 
 // alert("Testing 1, 2, 3...");
