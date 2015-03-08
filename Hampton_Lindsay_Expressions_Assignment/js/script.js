@@ -14,7 +14,7 @@
 var origCost = prompt("What is the purchase price of the car?\n(Please leave out the dollar sign.)");
 
 // What is the interest on the loan?
-var loan = prompt("What is the yearly interest rate on your loan?");
+var loan = prompt("What is the yearly interest rate on your loan?\n(Please leave out the percentage sign.)");
 
 //How many years will it take?
 var years = prompt("In how many years will your loan be paid off?");
@@ -24,5 +24,7 @@ var input = [origCost,loan,years];
 console.log("Your inputs were as follows: "+input);
 
 // Calculations
-var interest = loan /=100
+loan/=100;
+var decimalInterest = loan;
 // console.log(loan);
+
