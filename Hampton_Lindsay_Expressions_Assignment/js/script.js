@@ -37,3 +37,13 @@ var totalInterest = interestPerYear*input[2];
 var totalCost = input[0]+parseInt(totalInterest);
 console.log("The total amount you will pay through this loan is $"+totalCost+".");
 
+/*
+On Test #1, I used (8700) as the original cost, (3.25) as the interest, and (3) years.
+I got 282.75 in interest per year & 9548 as the total cost.
+
+On Test #2, I used (6900) as the original cost, (4.9) as the interest, and (10) years.
+I got 338.10 in interest per year & 10281 as the total cost.
+
+On Test #3, I used (12500) as the original cost, (3.5) as the interest, and (15) years.
+I got 437.50 in interest per year & 19062 as the total cost.
+ */
