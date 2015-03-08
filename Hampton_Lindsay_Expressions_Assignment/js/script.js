@@ -31,3 +31,8 @@ var decimalInterest = loan;
 // Calculating interest paid per year
 var interestPerYear = decimalInterest*origCost;
 console.log("According to the inputs you've submitted, you will be paying $"+interestPerYear+" in interest per year.");
+
+// Calculating total amount paid
+var totalInterest = interestPerYear*parseInt(years);
+var totalCost = parseInt(origCost)+parseInt(totalInterest);
+console.log("The total amount you will pay through this loan is $"+totalCost+".");
