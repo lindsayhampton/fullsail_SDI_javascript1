@@ -20,19 +20,20 @@ var loan = prompt("What is the yearly interest rate on your loan?\n(Please leave
 var years = prompt("In how many years will your loan be paid off?");
 
 // Data collection
-var input = [origCost,loan,years];
+var input = [parseInt(origCost),loan,parseInt(years)];
 console.log("Your inputs were as follows: "+input);
 
 // Calculations
-loan/=100;
-var decimalInterest = loan;
-// console.log(loan);
+input[1] /=100;
+var decimalInterest = input[1];
+// console.log(decimalInterest);
 
 // Calculating interest paid per year
-var interestPerYear = decimalInterest*origCost;
+var interestPerYear = decimalInterest*input[0];
 console.log("According to the inputs you've submitted, you will be paying $"+interestPerYear+" in interest per year.");
 
 // Calculating total amount paid
-var totalInterest = interestPerYear*parseInt(years);
-var totalCost = parseInt(origCost)+parseInt(totalInterest);
+var totalInterest = interestPerYear*input[2];
+var totalCost = input[0]+parseInt(totalInterest);
 console.log("The total amount you will pay through this loan is $"+totalCost+".");
+
