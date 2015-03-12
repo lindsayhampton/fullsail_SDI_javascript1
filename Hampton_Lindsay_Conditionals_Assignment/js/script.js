@@ -17,3 +17,8 @@ if (sellingPuppies=="" || isNaN(sellingPuppies)){
 }
 //console.log(sellingPuppies);
 
+// Are you going to keep any of the puppies?
+var keep = prompt("Puppies are super cute! \n How many of your dog's puppies are you going to keep for yourself?");
+if (keep =="" || isNaN(keep)){
+    keep = prompt("Please use numbers to enter how many of your dogs puppies you plan to keep. \n This is a required field.");
+}
