@@ -10,8 +10,21 @@
 
 // How much profit will you make on your dog's puppies?
 
+// Are you selling these puppies
+var areYou = prompt("We are going to calculate how much of a profit you will make by selling your dog's puppies! \n Are you going to sell them?")
+var areYou = areYou.toLowerCase();
+if (areYou=="" ||){
+    areYou = prompt("Please do not leave this field blank, it is required. \n Are you going to sell your dog's puppies?");
+    areYou = areYou.toLowerCase();
+} else if (areYou !="yes" && areYou !="no"){
+    areYou = prompt("Please only type yes or no. \n Are you going to sell your dog's puppies?");
+    areYou = areYou.toLowerCase();
+}
+
+
+
 // How many puppies did your dog have?
-var sellingPuppies = prompt("We are going to calculate how much of a profit you will make by selling your dog's puppies! \n How many puppies did your dog have?");
+var sellingPuppies = prompt("How many puppies did your dog have?");
 if (sellingPuppies=="" || isNaN(sellingPuppies)){
     sellingPuppies = prompt("Please use numbers to enter how many puppies your dog had.\n This is a required field.")
 }
@@ -43,5 +56,7 @@ var puppyProfit = puppiesSold*cost;
 var totalProfit = puppyProfit - expenses
 
 if (totalProfit <= puppyProfit){
-    console.log("");
-} else
+    console.log("You have not made a profit on these puppies. You have lost "+totalProfit+" dollars in expenses.");
+} else {
+    console.log("You have made a profit of $"+totalProfit+" by selling these puppies!");
+}
