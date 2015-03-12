@@ -29,8 +29,19 @@ if (cost == "" || isNaN(cost)){
     cost = prompt("Please use numbers to enter how much you are charging per puppy \n Do not include the dollar sign.");
 }
 
+// Vet costs
+var expenses = prompt("How much money have you spent on these puppies so far?\n Please enter numbers only.");
+if (expenses == "" || isNaN(expenses)){
+    expenses = prompt("Please use numbers to enter how much your expenses have been on these puppies so far \n Do not include the dollar sign.");
+}
+
 // Results
 var puppiesSold = sellingPuppies - keep;
 console.log("You are selling "+puppiesSold+" puppies for profit.");
 
 var puppyProfit = puppiesSold*cost;
+var totalProfit = puppyProfit - expenses
+
+if (totalProfit <= puppyProfit){
+    console.log("");
+} else
