@@ -22,3 +22,15 @@ var keep = prompt("Puppies are super cute! \n How many of your dog's puppies are
 if (keep =="" || isNaN(keep)){
     keep = prompt("Please use numbers to enter how many of your dogs puppies you plan to keep. \n This is a required field.");
 }
+
+// How much are you charging per puppy?
+var cost = prompt("How much money are you charging per puppy that you sell? \n Please enter numbers only.");
+if (cost == "" || isNaN(cost)){
+    cost = prompt("Please use numbers to enter how much you are charging per puppy \n Do not include the dollar sign.");
+}
+
+// Results
+var puppiesSold = sellingPuppies - keep;
+console.log("You are selling "+puppiesSold+" puppies for profit.");
+
+var puppyProfit = puppiesSold*cost;
