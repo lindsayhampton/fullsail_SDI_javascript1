@@ -21,6 +21,8 @@ circCirc(5);
 
 circCirc(8);
 
+var radius=10;
+circCirc(radius);
 // Stung!
 // 8.666666667 stings per pound to kill
 
@@ -36,3 +38,6 @@ sting2Kill(10);
 sting2Kill(180);
 
 sting2Kill(467);
+
+var weight = 879;
+sting2Kill(weight);
