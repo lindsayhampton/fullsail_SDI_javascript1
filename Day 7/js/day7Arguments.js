@@ -37,3 +37,8 @@ function dogYears(humanAge){
 
 // Call the dog function
 dogYears(4);
+
+var userInput = prompt("Please enter the age in human years!");
+
+dogYears(userInput);
+
