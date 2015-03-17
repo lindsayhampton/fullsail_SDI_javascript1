@@ -21,3 +21,10 @@ circCirc(5);
 
 circCirc(8);
 
+// Stung!
+// 8.666666667 stings per pound to kill
+
+function sting2Kill(w){
+    var stings = w*8.666666667
+    console.log("It would take a bee "+stings+" stings to kill this animal.");
+}
