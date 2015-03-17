@@ -14,3 +14,10 @@ function circCirc(r) {
     var circumference = 2*Math.PI*r
     console.log("The circumference of the circle is "+circumference);
 }
+
+// Call the function
+
+circCirc(5);
+
+circCirc(8);
+
