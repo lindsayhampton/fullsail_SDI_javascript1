@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4797ca7a-b89e-41c2-ab91-cd17d794d7d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 7/js/day7Beer.js" afterPath="$PROJECT_DIR$/Day 7/js/day7Beer.js" />
-    </list>
+    <list default="true" id="4797ca7a-b89e-41c2-ab91-cd17d794d7d7" name="Default" comment="" />
     <ignored path="hampton_lindsay_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day7Beer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 7/day7Beer.html">
+      <file leaf-file-name="day7Zombies.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 7/js/day7Zombies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day7Beer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 7/js/day7Beer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26200873" vertical-offset="0" max-vertical-offset="687">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.15283842" vertical-offset="0" max-vertical-offset="687">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doWhileLoop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loops_worksheet/js/doWhileLoop.js">
+      <file leaf-file-name="day7Zombies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 7/day7Zombies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="16" column="125" selection-start-line="16" selection-start-column="125" selection-end-line="16" selection-end-column="125" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -113,6 +101,8 @@
         <option value="$PROJECT_DIR$/loops_worksheet/js/validatingLoop.js" />
         <option value="$PROJECT_DIR$/Day 7/day7Beer.html" />
         <option value="$PROJECT_DIR$/Day 7/js/day7Beer.js" />
+        <option value="$PROJECT_DIR$/Day 7/day7Zombies.html" />
+        <option value="$PROJECT_DIR$/Day 7/js/day7Zombies.js" />
       </list>
     </option>
   </component>
@@ -163,38 +153,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hampton_lindsay_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hampton_lindsay_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hampton_lindsay_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loops_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hampton_lindsay_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hampton_lindsay_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loops_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,20 +308,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/conditionalsWorksheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hampton_Lindsay_Expressions_Assignment/expressionsAssignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hampton_Lindsay_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
@@ -695,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/day7Beer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loops_worksheet/whileLoop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22624435" vertical-offset="0" max-vertical-offset="663">
@@ -721,8 +657,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 7/js/day7Beer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26200873" vertical-offset="0" max-vertical-offset="687">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.4366812" vertical-offset="0" max-vertical-offset="687">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/day7Beer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22624435" vertical-offset="0" max-vertical-offset="663">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/day7Zombies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/js/day7Zombies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15283842" vertical-offset="0" max-vertical-offset="687">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
