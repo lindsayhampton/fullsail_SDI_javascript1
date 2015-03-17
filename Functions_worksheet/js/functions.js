@@ -28,3 +28,11 @@ function sting2Kill(w){
     var stings = w*8.666666667
     console.log("It would take a bee "+stings+" stings to kill this animal.");
 }
+
+// Call the information
+
+sting2Kill(10);
+
+sting2Kill(180);
+
+sting2Kill(467);
