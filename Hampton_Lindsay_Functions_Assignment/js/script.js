@@ -9,7 +9,32 @@
 
 // Finding the cost of a product plus tax.
 
-// Create variables for original price and tax.
+// Create variable for original price
 var origPrice = prompt("Let's calculate the total price of your next purchase.\nWhat is the original price of the product?\nPlease leave out the dollar sign.");
+origPrice = parseInt(origPrice);
+
+
+// Validate the variable prompt.
+
+while (isNaN(origPrice) || origPrice===""){
+    if (isNaN(origPrice)){
+        origPrice = prompt("Please only enter numbers.\nWhat is the original price of the product?");
+    } else if(origPrice===""){
+        origPrice = prompt("This field is required, please do not leave it blank.\nWhat is the original price of the product?");
+    }
+}
+
+// Create a variable for tax percentage.
 var taxAmount = prompt("Please enter the percentage of sales tax.");
+taxAmount = parseInt(taxAmount);
+
+// Validate
+
+while (isNaN(taxAmount) || taxAmount===""){
+    if (isNaN(taxAmount)){
+        taxAmount = prompt("Please only enter numbers.\nWhat is the percentage of sales tax?");
+    } else if (taxAmount===""){
+        taxAmount = prompt("This field is required, please do not leave it blank.\nWhat is the original price of the product?");
+    }
+}
 
