@@ -27,6 +27,7 @@ while (isNaN(origPrice) || origPrice===""){
 // Create a variable for tax percentage.
 var taxAmount = prompt("Please enter the percentage of sales tax.");
 taxAmount = parseInt(taxAmount);
+var divide = 100;
 
 // Validate
 
@@ -39,12 +40,17 @@ while (isNaN(taxAmount) || taxAmount===""){
 }
 
 // Create function
-function taxTotal(origPrice, taxAmount){
-    var taxCash = (origPrice*taxAmount)/100;
+function taxTotal(origPrice, taxAmount,divide){
+    var taxCash = (origPrice*taxAmount)/divide;
     return taxCash;
 }
 
 // Returned
-var taxCash = taxTotal(origPrice, taxAmount);
+var taxCash = taxTotal(origPrice, taxAmount, divide);
 console.log("The amount in tax you will be paying is $"+taxCash+".");
 
+
+// Create Anonymous function
+var price = function(taxCash, origPrice){
+    var totalPrice = taxCash+origPrice
+}
