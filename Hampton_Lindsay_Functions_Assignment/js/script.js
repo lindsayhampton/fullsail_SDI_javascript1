@@ -50,7 +50,13 @@ var taxCash = taxTotal(origPrice, taxAmount, divide);
 console.log("The amount in tax you will be paying is $"+taxCash+".");
 
 
-// Create Anonymous function
-var price = function(taxCash, origPrice){
+// Function 2
+function price(taxCash, origPrice){
     var totalPrice = taxCash+origPrice
+    return totalPrice;
 }
+
+// Returned
+var totalPrice = price(taxCash, origPrice);
+console.log("The total amount you will pay for this item is $"+totalPrice+".");
+
