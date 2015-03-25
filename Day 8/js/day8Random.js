@@ -33,8 +33,8 @@ while(isNaN(max) || max==="" || parseInt(max)<=parseInt(min)){
 
 
 // Function Call
-var ranNum = getRandom(min, max)
-console.log("Your random number between "+min+" and "+max+" is "+ranNum)
+var ranNum = getRandom(min, max);
+console.log("Your random number between "+min+" and "+max+" is "+ranNum);
 
 // Create our function
 function getRandom(min, max){

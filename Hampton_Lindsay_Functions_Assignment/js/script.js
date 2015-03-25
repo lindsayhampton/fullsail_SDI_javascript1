@@ -38,3 +38,13 @@ while (isNaN(taxAmount) || taxAmount===""){
     }
 }
 
+// Create function
+function taxTotal(origPrice, taxAmount){
+    var taxCash = (origPrice*taxAmount)/100;
+    return taxCash;
+}
+
+// Returned
+var taxCash = taxTotal(origPrice, taxAmount);
+console.log("The amount in tax you will be paying is $"+taxCash+".");
+
